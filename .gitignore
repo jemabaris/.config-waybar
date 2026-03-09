@@ -1,0 +1,12 @@
+# Ignore everything 
+*
+
+
+# But include these specific files
+!style.css
+!config.jsonc
+!launch.sh
+
+
+# Also include .gitignore so it gets tracked
+!.gitignore
