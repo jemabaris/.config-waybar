@@ -1,22 +1,30 @@
 * {
-  padding: 1;
-  border-radius: 10px;
+  padding: 0;
   margin: 0;
+  border: none;
+  border-radius: 0px;
   font-family: JetBrainsMono Nerd Font Propo;
   font-weight: 700;
   font-size: 15px;
-  background-color: #1e1e2e; /* Reduced opacity background */
+}
+
+.modules-center {
+  background-color: #1a1a1a;
+  border-radius: 28px;
+  margin: 16px;
+  padding: 6px 12px;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.9);
 }
 
 window#waybar {
-  background-color: rgba(0, 0, 0, 0);
+  background: transparent;
 }
 
 #custom-launcher {
   font-size: 20px;
   color: #00bfff;
   padding-right: 10px;
-  background-color: #1e1e2e;
+  background-color: #1a1c2b;
 }
 
 /* #cpu, */
@@ -63,7 +71,6 @@ window#waybar {
 #memory {
   color: #c2e78c;
   padding: 0px 10px 0px 0px;
-  border-radius: 0;
 }
 
 #temperature {
@@ -75,7 +82,7 @@ window#waybar {
 #custom-window-name {
   color: #68b0d6;
   margin-right: 10px;
-  background-color: #1e1e2e;
+  background-color: #1a1c2b;
 }
 
 #custom-pacman-update-icon {
@@ -95,65 +102,56 @@ window#waybar {
 
 #workspaces button:nth-child(1) label {
   color: #8aadf4;
-  font-size: 16px;
-  margin: 0px 2px;
-  background-color: #1e1e2e;
+  margin: 0px 8px;
+  background: transparent;
 }
 
 #workspaces button:nth-child(2) label {
   color: #f6768e;
-  font-size: 16px;
-  margin: 0px 2px;
-  background-color: #1e1e2e;
+  margin: 0px 8px;
+  background: transparent;
 }
 
 #workspaces button:nth-child(3) label {
   color: #a6da95;
-  font-size: 16px;
-  margin: 0px 2px;
-  background-color: #1e1e2e;
+  margin: 0px 8px;
+  background: transparent;
 }
 
 #workspaces button:nth-child(4) label {
   color: #c6a0f6;
-  font-size: 16px;
-  margin: 0px 2px;
-  background-color: #1e1e2e;
+  margin: 0px 8px;
+  background: transparent;
 }
 
 #workspaces button:nth-child(5) label {
   color: #f4dbd6;
-  font-size: 16px;
-  margin: 0px 2px;
-  background-color: #1e1e2e;
+  margin: 0px 8px;
+  background: transparent;
 }
 
 #workspaces button:nth-child(6) label {
   color: #f5a97f;
-  font-size: 16px;
-  margin: 0px 2px;
-  background-color: #1e1e2e;
+  margin: 0px 8px;
+  background: transparent;
 }
 
 #workspaces button:nth-child(7) label {
   color: #8bd5ca;
-  font-size: 16px;
-  margin: 0px 2px;
-  background-color: #1e1e2e;
+  margin: 0px 8px;
+  background: transparent;
 }
 
 #workspaces button:nth-child(8) label {
   color: #68b0d6;
-  font-size: 16px;
-  margin: 0px 2px;
-  background-color: #1e1e2e;
+  margin: 0px 8px;
+  background: transparent;
 }
 
 #workspaces button:nth-child(9) label {
   color: #aab1d3;
-  font-size: 16px;
-  margin: 0px 2px;
-  background-color: #1e1e2e;
+  margin: 0px 8px;
+  background: transparent;
 }
 
 #battery {
@@ -177,30 +175,30 @@ window#waybar {
 
 #pulseaudio {
   color: #85e0fc;
-  padding: 0px 10px 0px 10px;
-  border-radius: 5px 5px 5px 5px;
+  padding: 0px 10px 0px 0px;
+  border-radius: 0px 5px 5px 0px;
 }
 
 #custom-right-arr {
   color: #8aadf4;
-  background-color: #1e1e2e;
+  background-color: #1a1c2b;
 }
 
 #custom-pacman {
   color: #68b0d6;
-  background-color: #1e1e2e;
+  background-color: #1a1c2b;
 }
 
 #network {
   color: #c6a0f6;
   margin-right: 10px;
-  background-color: #1e1e2e;
+  background-color: #1a1c2b;
 }
 
 #custom-dot {
   color: #6e738d;
   padding-right: 10px;
-  background-color: #1e1e2e;
+  background-color: #1a1c2b;
 }
 
 #custom-dot-alt {
@@ -211,7 +209,7 @@ window#waybar {
 
 #disk {
   color: #68b0d6;
-  background-color: #1e1e2e;
+  background-color: #1a1c2b;
 }
 
 #custom-clock-icon {
@@ -241,17 +239,8 @@ window#waybar {
   border-radius: 5px;
 }
 
-#tray {
-  /*   padding-left: 5px; */
-  padding-right: 10px;
-}
-
 #clock {
   padding-left: 10px;
 }
 
-#custom-notifications {
-  padding-left: 8px;
-  padding-right: 12px;
-}
 /*# sourceMappingURL=style.css.map */

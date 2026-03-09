@@ -4,6 +4,8 @@
 
 # But include these specific files
 !style.css
+!style.css.bak
+!style.css.bak1
 !config.jsonc
 !launch.sh
 
