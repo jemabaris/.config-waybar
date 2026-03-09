@@ -1,11 +1,11 @@
 {
   "layer": "top",
   "exclusive": "false",
-  "height": 20,
+  "height": 18,
   "margin-top": 10,
   "margin-bottom": 0,
-  "margin-left": 8,
-  "margin-right": 8,
+  "margin-left": 19,
+  "margin-right": 19,
   "spacing": 0,
 
   "modules-left": [
